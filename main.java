@@ -21,6 +21,9 @@ public class main {
 				}
 			}	
 		}
+		else if (num < 0) {
+			System.out.println("음수의 구구단은 출력되지 않습니다.");
+		}
 		else {
 			System.out.println("9보다 큰 값을 입력하셨습니다.");
 		}
