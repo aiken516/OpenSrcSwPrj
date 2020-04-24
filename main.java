@@ -9,9 +9,16 @@ public class main {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("원하시는 구구단 열을 입력해주세요: ");
 		num = scan.nextInt();
-		if (num < 10) {
-			for (int i = 0; i <= 9; i++) {
+		if (num < 10 && num > 0) {
+			for (int i = 1; i <= 9; i++) {
 				System.out.println(num+" * "+i+" = "+num*i);
+			}	
+		}
+		else if (num == 0) {
+			for (int i = 2; i <= 9; i++) {
+				for (int j = 1; j <= 9; j++) {
+				System.out.println(i+" * "+j+" = "+i*j);
+				}
 			}	
 		}
 		else {
