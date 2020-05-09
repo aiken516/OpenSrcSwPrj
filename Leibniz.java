@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class pi {
 	public static void main(String[] args) {
 		float pi = 0;
 		
